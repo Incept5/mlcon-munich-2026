@@ -30,6 +30,8 @@ pip install -r day-2/requirements.txt
 
 ## Contents
 
+- **[Day 1 slides (PDF)](MLCon%20Munich%202026%20-%20Hands-on%20GenAI%20Development%20Bootcamp%20Day%201.pdf)**
+  — the slide deck accompanying the Day‑1 session.
 - **[day-1/](day-1/)** — AI fundamentals: classic neural networks, what an LLM
   really is (tokenisation → embeddings → attention → decoding), and running
   models locally, remotely and in the cloud. See the
