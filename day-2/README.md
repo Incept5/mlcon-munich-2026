@@ -120,6 +120,14 @@ LLMs are good at code (SQL, regex, whole programs). The deck demos Claude Code;
 the local scripts here show generating, running and **testing** code, and the
 high‑value special case of **SQL generation** from a schema.
 
+Want the agentic "vibe coding" experience entirely on a local model? No API key
+required:
+
+- **[CODEX_OLLAMA_QUICKSTART.md](CODEX_OLLAMA_QUICKSTART.md)** — OpenAI's Codex
+  CLI on an Ollama model. The easy path (no proxy). Start here.
+- **[CLAUDE_CODE_OLLAMA_QUICKSTART.md](CLAUDE_CODE_OLLAMA_QUICKSTART.md)** — Claude
+  Code on an Ollama model (one extra step: a tiny local translator).
+
 | Script | What it shows |
 |---|---|
 | `payroll.py` | Downloads a payroll dataset from Kaggle and loads it into a **SQLite** database — the setup step. |
