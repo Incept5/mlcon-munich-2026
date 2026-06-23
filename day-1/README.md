@@ -67,6 +67,7 @@ instead of `.env`.)
 | Script | What it shows |
 |---|---|
 | `simple_token_test.py` | **Tokenisation.** Loads the `Qwen/Qwen3.5-0.8B` tokenizer, encodes *"Attention Is All You Need"*, prints each token → ID, then decodes back. Shows why an LLM sees numbers, not letters (the spelling/maths question). Needs `pip install transformers`. |
+| `simple_token_test2.py` | The same tokeniser on a **bilingual** phrase (*"Welcome to Munich, Willkommen in München"*) — see how English vs. German words split into different numbers of subword tokens, and what happens to *München*. |
 | `embedding_demo.py` | **Embeddings + cosine similarity.** Embeds `tea / coffee / mud / dirt` with `all-minilm` (via Ollama) and prints the full similarity matrix as a grid — "tea"≈"coffee", "mud"≈"dirt". Needs `pip install numpy tabulate`. |
 | `embedding_example.py` | An interactive twin of the above: type a question and it ranks a fixed list of sentences by cosine similarity, reporting the mean, standard deviation and each result's **z‑score** so outliers stand out. Talks to Ollama's REST embeddings endpoint directly. |
 | `word_embeddings.py` | **Visualising meaning.** Embeds the system dictionary with `sentence-transformers`, finds the nearest neighbours of a set of target words, reduces to 3‑D with **PCA**, and renders an interactive **Plotly** scatter. Caches vectors in `embeddings.pkl`. Needs `pip install sentence-transformers scikit-learn plotly`. |

@@ -63,6 +63,7 @@ can read charts, diagrams, sheet music, menus and photos.
 | `read_diagram.py` | Reads a diagram and returns a **Mermaid** description of its structure. |
 | `read_music.py` | Reads a music score and names the **key signature**. |
 | `read_ocr_menu.py` | **OCR** a menu/photo to text (the "document is a PDF/image" path into RAG). |
+| `ice_cream_flavours.py` | A quick **menu‑reading** demo: base64‑encode an ice‑cream menu photo (`data/IMG_3319.jpeg`, with `IMG_3320`/`IMG_3321` as alternatives) and ask Ollama's `qwen3.5:4b` vision model to list the flavours. |
 
 ## 2. RAG — Retrieval‑Augmented Generation
 
@@ -158,7 +159,7 @@ for full detail.
 
 | Script | What it shows |
 |---|---|
-| `chatterbox_tts.py` | **Text → speech** with voice cloning via MLX (`mlx-audio`) — the "goodbye from Ricky" TTS demo. Apple‑Silicon only. |
+| `chatterbox_tts.py` | **Text → speech** with voice cloning via MLX (`mlx-audio`) — the "goodbye from Ricky" TTS demo. Apple‑Silicon only. Sample outputs live in `data/` (`ricky-munich-ai-full.mp3`, `ricky-berlin-*.mp3`, `klopp-de*.mp3`). |
 
 The closing slides (Embabel, Open‑Claw, Hermes Agent, running an agent 24/7 on a
 Raspberry Pi, email/home access) are **conceptual** — no scripts in this folder.
