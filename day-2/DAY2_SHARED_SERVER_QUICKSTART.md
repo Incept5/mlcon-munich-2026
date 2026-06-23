@@ -14,7 +14,7 @@ for today. Pick the address that matches your network.
 | Your situation | Base address |
 |---|---|
 | On the room Wi‑Fi, **not** on a VPN | `http://172.22.41.204:11434` |
-| On a **corporate VPN** | `https://prostate-automated-agriculture-reprint.trycloudflare.com` |
+| On a **corporate VPN** | `https://yang-parenting-relates-magnificent.trycloudflare.com` |
 
 > The VPN tunnel URL also works off-VPN — when in doubt, use it. For
 > OpenAI-compatible tools, append **`/v1`** to whichever address you use.
